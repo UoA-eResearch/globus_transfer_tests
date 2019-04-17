@@ -5,7 +5,7 @@ from os.path import isfile
 import pandas as pd
 import numpy as np
 
-# verify at least one logfile has been provided as command-line arguments
+# verify at least one logfile has been provided as argument on command-line
 if len(sys.argv) < 2:
   print("Syntax: %s <logfile>..." % sys.argv[0])
   sys.exit(1)
