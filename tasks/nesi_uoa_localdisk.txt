@@ -1,0 +1,25 @@
+# src endpoint | src path | dest endpoint | dest path | repeats | transfer options | label
+e7f6aaae-fe52-11e8-9345-0e3d676669f4|/~/out/10gb_1_file|3064bb28-e940-11e8-8caa-0a1d4c5c824a|/nesi/nobackup/uoa99999/mfel395/10gb_1_file|8|--no-verify-checksum|UoA-LocalDisk
+e7f6aaae-fe52-11e8-9345-0e3d676669f4|/~/out/10gb_10_files|3064bb28-e940-11e8-8caa-0a1d4c5c824a|/nesi/nobackup/uoa99999/mfel395/10gb_10_files|8|--no-verify-checksum|UoA-LocalDisk
+e7f6aaae-fe52-11e8-9345-0e3d676669f4|/~/out/10gb_100_files|3064bb28-e940-11e8-8caa-0a1d4c5c824a|/nesi/nobackup/uoa99999/mfel395/10gb_100_files|8|--no-verify-checksum|UoA-LocalDisk
+e7f6aaae-fe52-11e8-9345-0e3d676669f4|/~/out/10gb_1000_files|3064bb28-e940-11e8-8caa-0a1d4c5c824a|/nesi/nobackup/uoa99999/mfel395/10gb_1000_files|8|--no-verify-checksum|UoA-LocalDisk
+e7f6aaae-fe52-11e8-9345-0e3d676669f4|/~/out/10gb_10000_files|3064bb28-e940-11e8-8caa-0a1d4c5c824a|/nesi/nobackup/uoa99999/mfel395/10gb_10000_files|8|--no-verify-checksum|UoA-LocalDisk
+
+3064bb28-e940-11e8-8caa-0a1d4c5c824a|/nesi/nobackup/uoa99999/mfel395/10gb_1_file|e7f6aaae-fe52-11e8-9345-0e3d676669f4|/~/in/10gb_1_file|8|--no-verify-checksum|UoA-LocalDisk
+3064bb28-e940-11e8-8caa-0a1d4c5c824a|/nesi/nobackup/uoa99999/mfel395/10gb_10_files|e7f6aaae-fe52-11e8-9345-0e3d676669f4|/~/in/10gb_10_files|8|--no-verify-checksum|UoA-LocalDisk
+3064bb28-e940-11e8-8caa-0a1d4c5c824a|/nesi/nobackup/uoa99999/mfel395/10gb_100_files|e7f6aaae-fe52-11e8-9345-0e3d676669f4|/~/in/10gb_100_files|8|--no-verify-checksum|UoA-LocalDisk
+3064bb28-e940-11e8-8caa-0a1d4c5c824a|/nesi/nobackup/uoa99999/mfel395/10gb_1000_files|e7f6aaae-fe52-11e8-9345-0e3d676669f4|/~/in/10gb_1000_files|8|--no-verify-checksum|UoA-LocalDisk
+3064bb28-e940-11e8-8caa-0a1d4c5c824a|/nesi/nobackup/uoa99999/mfel395/10gb_10000_files|e7f6aaae-fe52-11e8-9345-0e3d676669f4|/~/in/10gb_10000_files|8|--no-verify-checksum|UoA-LocalDisk
+
+e7f6aaae-fe52-11e8-9345-0e3d676669f4|/~/out/10gb_1_file|3064bb28-e940-11e8-8caa-0a1d4c5c824a|/nesi/nobackup/uoa99999/mfel395/10gb_1_file|8|--verify-checksum|UoA-LocalDisk
+e7f6aaae-fe52-11e8-9345-0e3d676669f4|/~/out/10gb_10_files|3064bb28-e940-11e8-8caa-0a1d4c5c824a|/nesi/nobackup/uoa99999/mfel395/10gb_10_files|8|--verify-checksum|UoA-LocalDisk
+e7f6aaae-fe52-11e8-9345-0e3d676669f4|/~/out/10gb_100_files|3064bb28-e940-11e8-8caa-0a1d4c5c824a|/nesi/nobackup/uoa99999/mfel395/10gb_100_files|8|--verify-checksum|UoA-LocalDisk
+e7f6aaae-fe52-11e8-9345-0e3d676669f4|/~/out/10gb_1000_files|3064bb28-e940-11e8-8caa-0a1d4c5c824a|/nesi/nobackup/uoa99999/mfel395/10gb_1000_files|8|--verify-checksum|UoA-LocalDisk
+e7f6aaae-fe52-11e8-9345-0e3d676669f4|/~/out/10gb_10000_files|3064bb28-e940-11e8-8caa-0a1d4c5c824a|/nesi/nobackup/uoa99999/mfel395/10gb_10000_files|8|--verify-checksum|UoA-LocalDisk
+
+3064bb28-e940-11e8-8caa-0a1d4c5c824a|/nesi/nobackup/uoa99999/mfel395/10gb_1_file|e7f6aaae-fe52-11e8-9345-0e3d676669f4|/~/in/10gb_1_file|8|--verify-checksum|UoA-LocalDisk
+3064bb28-e940-11e8-8caa-0a1d4c5c824a|/nesi/nobackup/uoa99999/mfel395/10gb_10_files|e7f6aaae-fe52-11e8-9345-0e3d676669f4|/~/in/10gb_10_files|8|--verify-checksum|UoA-LocalDisk
+3064bb28-e940-11e8-8caa-0a1d4c5c824a|/nesi/nobackup/uoa99999/mfel395/10gb_100_files|e7f6aaae-fe52-11e8-9345-0e3d676669f4|/~/in/10gb_100_files|8|--verify-checksum|UoA-LocalDisk
+3064bb28-e940-11e8-8caa-0a1d4c5c824a|/nesi/nobackup/uoa99999/mfel395/10gb_1000_files|e7f6aaae-fe52-11e8-9345-0e3d676669f4|/~/in/10gb_1000_files|8|--verify-checksum|UoA-LocalDisk
+3064bb28-e940-11e8-8caa-0a1d4c5c824a|/nesi/nobackup/uoa99999/mfel395/10gb_10000_files|e7f6aaae-fe52-11e8-9345-0e3d676669f4|/~/in/10gb_10000_files|8|--verify-checksum|UoA-LocalDisk
+
