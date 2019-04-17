@@ -14,7 +14,17 @@ mylog() {
     echo "${now} | ${message}" >> ${log_file}
 }
 
+verify_endpoint_activated() {
+    ep_id="$1"
+    globus endpoint is-activated ${ep_id} > /dev/null 2> /dev/null
+    if [ "$?" -ne "0" ]; then
+        mylog "${ep_id} is not activated! This script cannot run!"
+        exit 1
+    fi
+}
+
 delete_folder() {
+    verify_endpoint_activated $1
     url="$1:$2"
     globus ls ${url} > /dev/null 2> /dev/null
     if [ "$?" -eq "0" ]; then
@@ -34,6 +44,9 @@ transfer_folder() {
     transfer_options="${5}"
     label="${6}"
     folder=$(echo ${src_path} | rev | cut -d/ -f1 | rev)
+
+    verify_endpoint_activated ${src_ep}
+    verify_endpoint_activated ${dst_ep}
 
     cmd="globus transfer --notify off ${transfer_options} "${src_ep}:${src_path}" "${dst_ep}:${dst_path}" --recursive"
     mylog "${cmd}"
