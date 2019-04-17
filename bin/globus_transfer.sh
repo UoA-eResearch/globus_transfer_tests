@@ -59,10 +59,9 @@ transfer_folder() {
     status=$(cat ${tmp_file} | grep "Status:" | cut -d: -f2 | xargs)
     bytes_transferred=$(cat ${tmp_file} | grep "Bytes Transferred:" | cut -d: -f2 | xargs)
     bytes_per_second=$(cat ${tmp_file} | grep "Bytes Per Second:" | cut -d: -f2 | xargs)
-    transfer_rate=$(bc <<< "scale=2; ${bytes_per_second} / 1000 / 1000")
     rm -f ${tmp_file}
 
-    mylog "RESULT|${task_id}|${src_ep}|${src_path}|${dst_ep}|${dst_path}|${folder}|${bytes_transferred}|${transfer_rate}MB/s|${transfer_options}|${label}|${status}"
+    mylog "RESULT|${task_id}|${src_ep}|${src_path}|${dst_ep}|${dst_path}|${folder}|${bytes_transferred}|${bytes_per_second}|${transfer_options}|${label}|${status}"
 }
 
 # verify a task file has been provided on the command-line
