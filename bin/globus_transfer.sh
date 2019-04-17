@@ -21,12 +21,8 @@ delete_folder() {
         cmd="globus delete --notify off ${url} --recursive"
         mylog "${cmd}"
         task_id=$(${cmd} | grep "Task ID:" | cut -d: -f2 | xargs)
-        status='None'
-        while [ "${status}" != "SUCCEEDED" ]; do
-            mylog "Waiting for deletion to finish (Task ID: ${task_id})"
-            sleep 2
-            status=$(globus task show ${task_id} | grep "Status:" | cut -d: -f2 | xargs)
-        done
+        mylog "Waiting for deletion to finish (Task ID: ${task_id})"
+        globus task wait ${task_id}
     fi
 }
 
@@ -38,25 +34,12 @@ transfer_folder() {
     transfer_options="${5}"
     label="${6}"
     folder=$(echo ${src_path} | rev | cut -d/ -f1 | rev)
+
     cmd="globus transfer --notify off ${transfer_options} "${src_ep}:${src_path}" "${dst_ep}:${dst_path}" --recursive"
     mylog "${cmd}"
-    tmp_file=$(mktemp)
     task_id=$(${cmd} | grep "Task ID:" | cut -d: -f2 | xargs)
-
-    # check for status
-    status='None'
-    while [ "${status}" != "SUCCEEDED" ] && [ "${status}" != "FAILED" ]; do
-        sleep 10
-        tmp_file=$(mktemp)
-        globus task show ${task_id} > ${tmp_file}
-        status=$(cat ${tmp_file} | grep "Status:" | cut -d: -f2 | xargs)
-        bytes_transferred=$(cat ${tmp_file} | grep "Bytes Transferred:" | cut -d: -f2 | xargs)
-        bytes_per_second=$(cat ${tmp_file} | grep "Bytes Per Second:" | cut -d: -f2 | xargs)
-        transfer_rate=$(bc <<< "scale=2; ${bytes_per_second} / 1000 / 1000")
-        mylog "Waiting for transfer to finish (Task ID: ${task_id} | Bytes transferred: ${bytes_transferred} | Transfer rate: ${transfer_rate}MB/s)"
-        rm -f ${tmp_file}
-    done
-
+    mylog "Waiting for transfer to finish (Task ID: ${task_id})"
+    globus task wait ${task_id}
     mylog "RESULT|${task_id}|${src_ep}|${src_path}|${dst_ep}|${dst_path}|${folder}|${bytes_transferred}|${transfer_rate}MB/s|${transfer_options}|${label}|${status}"
 }
 
@@ -97,5 +80,4 @@ while read line; do
         transfer_folder ${src_ep} ${src_path} ${dst_ep} ${dst_path} "${transfer_options}" "${label}"
     done
 done < ${input_file}
-
 
