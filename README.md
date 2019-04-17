@@ -1,5 +1,5 @@
 # globus_transfer_tests
-Scripts to run and analyse a series for transfers using the Globus CLI
+Scripts to run and analyse a series of transfers using the Globus CLI
 
 ## Scripts
 * bin/globus_transfer.sh: Run a series of globus transfers, read from a transfer task file, using the Globus CLI.
