@@ -20,6 +20,9 @@ for filename in sys.argv[1:]:
 dfs = [ pd.read_csv(filename, sep='|') for filename in sys.argv[1:] ]
 df = pd.concat(dfs, axis=0, ignore_index=True)
 
+# change unit from Bytes/s to MegaBits/s
+df['transfer_rate'] = df['transfer_rate'].apply(lambda x: round((x*8)/1000/1000))
+
 # group by columns, run aggregate functions, and print result
 grouped = df.groupby(['src_and_dest', 'transfer_options', 'folder', 'label'])
 agg = grouped['transfer_rate'].agg([np.mean, np.std, np.min, np.max, np.size])
