@@ -1,9 +1,9 @@
 #!/bin/bash
 
-# Run transfers specified in a task file
+# Run directory transfers specified in a task file
 # Task file syntax: src_endpoint | src_path | dest_endpoint | dest_path | repeats | transfer_options | label
 # Currently only directory transfers are allowed
-# Output are written to transfer_<current_date_and_time>.log
+# Output is written to transfer_<current_date_and_time>.log
 # Prerequisites:
 #   * Globus CLI is installed
 #   * Endpoints listed in task file have been activated
