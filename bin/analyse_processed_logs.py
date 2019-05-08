@@ -16,12 +16,13 @@ for filename in sys.argv[1:]:
     print("File '{}' doesn't exist or isn't readable".format(filename))
     sys.exit(1)
 
+print(sys.argv[1:])
 # load each logfile into a data frame and concatenate into one data frame
 dfs = [ pd.read_csv(filename, sep='|') for filename in sys.argv[1:] ]
 df = pd.concat(dfs, axis=0, ignore_index=True)
 
-# change unit from Bytes/s to MegaBits/s
-df['transfer_rate'] = df['transfer_rate'].apply(lambda x: round((x*8)/1000/1000))
+# change unit from Bytes/s to MegaBytes/s
+df['transfer_rate'] = df['transfer_rate'].apply(lambda x: round(x/1000/1000))
 
 # group by columns, run aggregate functions, and print result
 grouped = df.groupby(['src_and_dest', 'transfer_options', 'folder', 'label'])

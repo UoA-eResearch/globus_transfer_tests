@@ -1,0 +1,100 @@
+2019/04/24 11:43:33 | globus delete --notify off e7f6aaae-fe52-11e8-9345-0e3d676669f4:/~/rescer201900004-data-transfer-tests/in/10gb_1_file --recursive
+2019/04/24 11:43:36 | Waiting for deletion to finish (Task ID: 9c7cbd48-6621-11e9-8e58-029d279f7e24)
+2019/04/24 11:43:44 | globus transfer --notify off --no-verify-checksum 3064bb28-e940-11e8-8caa-0a1d4c5c824a:/nesi/nobackup/uoa99999/mfel395/10gb_1_file e7f6aaae-fe52-11e8-9345-0e3d676669f4:/~/rescer201900004-data-transfer-tests/in/10gb_1_file --recursive
+2019/04/24 11:43:47 | Waiting for transfer to finish (Task ID: a2a75bba-6621-11e9-bf44-0e4a062367b8)
+2019/04/24 11:44:25 | RESULT|a2a75bba-6621-11e9-bf44-0e4a062367b8|3064bb28-e940-11e8-8caa-0a1d4c5c824a|/nesi/nobackup/uoa99999/mfel395/10gb_1_file|e7f6aaae-fe52-11e8-9345-0e3d676669f4|/~/rescer201900004-data-transfer-tests/in/10gb_1_file|10gb_1_file|10737418240|292256358|--no-verify-checksum|NeSI-2-UoA-SpectrumScale|SUCCEEDED
+2019/04/24 11:44:30 | globus delete --notify off e7f6aaae-fe52-11e8-9345-0e3d676669f4:/~/rescer201900004-data-transfer-tests/in/10gb_1_file --recursive
+2019/04/24 11:44:33 | Waiting for deletion to finish (Task ID: be7e0280-6621-11e9-8e58-029d279f7e24)
+2019/04/24 11:44:41 | globus transfer --notify off --no-verify-checksum 3064bb28-e940-11e8-8caa-0a1d4c5c824a:/nesi/nobackup/uoa99999/mfel395/10gb_1_file e7f6aaae-fe52-11e8-9345-0e3d676669f4:/~/rescer201900004-data-transfer-tests/in/10gb_1_file --recursive
+2019/04/24 11:44:43 | Waiting for transfer to finish (Task ID: c4946cf4-6621-11e9-b7f4-0a37f382de32)
+2019/04/24 11:45:26 | RESULT|c4946cf4-6621-11e9-b7f4-0a37f382de32|3064bb28-e940-11e8-8caa-0a1d4c5c824a|/nesi/nobackup/uoa99999/mfel395/10gb_1_file|e7f6aaae-fe52-11e8-9345-0e3d676669f4|/~/rescer201900004-data-transfer-tests/in/10gb_1_file|10gb_1_file|10737418240|268543034|--no-verify-checksum|NeSI-2-UoA-SpectrumScale|SUCCEEDED
+2019/04/24 11:45:31 | globus delete --notify off e7f6aaae-fe52-11e8-9345-0e3d676669f4:/~/rescer201900004-data-transfer-tests/in/10gb_1_file --recursive
+2019/04/24 11:45:35 | Waiting for deletion to finish (Task ID: e35cc140-6621-11e9-bf44-0e4a062367b8)
+2019/04/24 11:45:43 | globus transfer --notify off --no-verify-checksum 3064bb28-e940-11e8-8caa-0a1d4c5c824a:/nesi/nobackup/uoa99999/mfel395/10gb_1_file e7f6aaae-fe52-11e8-9345-0e3d676669f4:/~/rescer201900004-data-transfer-tests/in/10gb_1_file --recursive
+2019/04/24 11:45:45 | Waiting for transfer to finish (Task ID: e98f3de0-6621-11e9-8e58-029d279f7e24)
+2019/04/24 11:46:24 | RESULT|e98f3de0-6621-11e9-8e58-029d279f7e24|3064bb28-e940-11e8-8caa-0a1d4c5c824a|/nesi/nobackup/uoa99999/mfel395/10gb_1_file|e7f6aaae-fe52-11e8-9345-0e3d676669f4|/~/rescer201900004-data-transfer-tests/in/10gb_1_file|10gb_1_file|10737418240|297808527|--no-verify-checksum|NeSI-2-UoA-SpectrumScale|SUCCEEDED
+2019/04/24 11:46:30 | globus delete --notify off e7f6aaae-fe52-11e8-9345-0e3d676669f4:/~/rescer201900004-data-transfer-tests/in/10gb_1_file --recursive
+2019/04/24 11:46:32 | Waiting for deletion to finish (Task ID: 054a4e08-6622-11e9-8e58-029d279f7e24)
+2019/04/24 11:46:40 | globus transfer --notify off --no-verify-checksum 3064bb28-e940-11e8-8caa-0a1d4c5c824a:/nesi/nobackup/uoa99999/mfel395/10gb_1_file e7f6aaae-fe52-11e8-9345-0e3d676669f4:/~/rescer201900004-data-transfer-tests/in/10gb_1_file --recursive
+2019/04/24 11:46:43 | Waiting for transfer to finish (Task ID: 0b8d6cd2-6622-11e9-b7f4-0a37f382de32)
+2019/04/24 11:47:21 | RESULT|0b8d6cd2-6622-11e9-b7f4-0a37f382de32|3064bb28-e940-11e8-8caa-0a1d4c5c824a|/nesi/nobackup/uoa99999/mfel395/10gb_1_file|e7f6aaae-fe52-11e8-9345-0e3d676669f4|/~/rescer201900004-data-transfer-tests/in/10gb_1_file|10gb_1_file|10737418240|294452676|--no-verify-checksum|NeSI-2-UoA-SpectrumScale|SUCCEEDED
+2019/04/24 11:47:27 | globus delete --notify off e7f6aaae-fe52-11e8-9345-0e3d676669f4:/~/in/10gb_1_file --recursive
+2019/04/24 11:47:29 | Waiting for deletion to finish (Task ID: 277d94c6-6622-11e9-8e58-029d279f7e24)
+2019/04/24 11:47:37 | globus transfer --notify off --no-verify-checksum 3064bb28-e940-11e8-8caa-0a1d4c5c824a:/nesi/nobackup/uoa99999/mfel395/10gb_1_file e7f6aaae-fe52-11e8-9345-0e3d676669f4:/~/in/10gb_1_file --recursive
+2019/04/24 11:47:40 | Waiting for transfer to finish (Task ID: 2d9c2804-6622-11e9-b7f4-0a37f382de32)
+2019/04/24 11:48:14 | RESULT|2d9c2804-6622-11e9-b7f4-0a37f382de32|3064bb28-e940-11e8-8caa-0a1d4c5c824a|/nesi/nobackup/uoa99999/mfel395/10gb_1_file|e7f6aaae-fe52-11e8-9345-0e3d676669f4|/~/in/10gb_1_file|10gb_1_file|10737418240|330238299|--no-verify-checksum|NeSI-2-UoA-LocalDisk|SUCCEEDED
+2019/04/24 11:48:20 | globus delete --notify off e7f6aaae-fe52-11e8-9345-0e3d676669f4:/~/in/10gb_1_file --recursive
+2019/04/24 11:48:22 | Waiting for deletion to finish (Task ID: 46d584a0-6622-11e9-8e58-029d279f7e24)
+2019/04/24 11:48:30 | globus transfer --notify off --no-verify-checksum 3064bb28-e940-11e8-8caa-0a1d4c5c824a:/nesi/nobackup/uoa99999/mfel395/10gb_1_file e7f6aaae-fe52-11e8-9345-0e3d676669f4:/~/in/10gb_1_file --recursive
+2019/04/24 11:48:34 | Waiting for transfer to finish (Task ID: 4d183736-6622-11e9-8e58-029d279f7e24)
+2019/04/24 11:49:07 | RESULT|4d183736-6622-11e9-8e58-029d279f7e24|3064bb28-e940-11e8-8caa-0a1d4c5c824a|/nesi/nobackup/uoa99999/mfel395/10gb_1_file|e7f6aaae-fe52-11e8-9345-0e3d676669f4|/~/in/10gb_1_file|10gb_1_file|10737418240|355199189|--no-verify-checksum|NeSI-2-UoA-LocalDisk|SUCCEEDED
+2019/04/24 11:49:12 | globus delete --notify off e7f6aaae-fe52-11e8-9345-0e3d676669f4:/~/in/10gb_1_file --recursive
+2019/04/24 11:49:14 | Waiting for deletion to finish (Task ID: 6631db6e-6622-11e9-8e58-029d279f7e24)
+2019/04/24 11:49:23 | globus transfer --notify off --no-verify-checksum 3064bb28-e940-11e8-8caa-0a1d4c5c824a:/nesi/nobackup/uoa99999/mfel395/10gb_1_file e7f6aaae-fe52-11e8-9345-0e3d676669f4:/~/in/10gb_1_file --recursive
+2019/04/24 11:49:26 | Waiting for transfer to finish (Task ID: 6cb4953a-6622-11e9-bf44-0e4a062367b8)
+2019/04/24 11:50:00 | RESULT|6cb4953a-6622-11e9-bf44-0e4a062367b8|3064bb28-e940-11e8-8caa-0a1d4c5c824a|/nesi/nobackup/uoa99999/mfel395/10gb_1_file|e7f6aaae-fe52-11e8-9345-0e3d676669f4|/~/in/10gb_1_file|10gb_1_file|10737418240|329711608|--no-verify-checksum|NeSI-2-UoA-LocalDisk|SUCCEEDED
+2019/04/24 11:50:05 | globus delete --notify off e7f6aaae-fe52-11e8-9345-0e3d676669f4:/~/in/10gb_1_file --recursive
+2019/04/24 11:50:08 | Waiting for deletion to finish (Task ID: 86179680-6622-11e9-b7f4-0a37f382de32)
+2019/04/24 11:50:17 | globus transfer --notify off --no-verify-checksum 3064bb28-e940-11e8-8caa-0a1d4c5c824a:/nesi/nobackup/uoa99999/mfel395/10gb_1_file e7f6aaae-fe52-11e8-9345-0e3d676669f4:/~/in/10gb_1_file --recursive
+2019/04/24 11:50:19 | Waiting for transfer to finish (Task ID: 8c87362e-6622-11e9-8e58-029d279f7e24)
+2019/04/24 11:50:57 | RESULT|8c87362e-6622-11e9-8e58-029d279f7e24|3064bb28-e940-11e8-8caa-0a1d4c5c824a|/nesi/nobackup/uoa99999/mfel395/10gb_1_file|e7f6aaae-fe52-11e8-9345-0e3d676669f4|/~/in/10gb_1_file|10gb_1_file|10737418240|297816077|--no-verify-checksum|NeSI-2-UoA-LocalDisk|SUCCEEDED
+2019/04/24 11:51:02 | globus delete --notify off e7f6aaae-fe52-11e8-9345-0e3d676669f4:/~/tmpfs/in/10gb_1_file --recursive
+2019/04/24 11:51:04 | Waiting for deletion to finish (Task ID: a7b14bd8-6622-11e9-bf44-0e4a062367b8)
+2019/04/24 11:51:13 | globus transfer --notify off --no-verify-checksum 3064bb28-e940-11e8-8caa-0a1d4c5c824a:/nesi/nobackup/uoa99999/mfel395/10gb_1_file e7f6aaae-fe52-11e8-9345-0e3d676669f4:/~/tmpfs/in/10gb_1_file --recursive
+2019/04/24 11:51:15 | Waiting for transfer to finish (Task ID: ade5a788-6622-11e9-bf44-0e4a062367b8)
+2019/04/24 11:51:55 | RESULT|ade5a788-6622-11e9-bf44-0e4a062367b8|3064bb28-e940-11e8-8caa-0a1d4c5c824a|/nesi/nobackup/uoa99999/mfel395/10gb_1_file|e7f6aaae-fe52-11e8-9345-0e3d676669f4|/~/tmpfs/in/10gb_1_file|10gb_1_file|10737418240|286305386|--no-verify-checksum|NeSI-2-UoA-tmpfs|SUCCEEDED
+2019/04/24 11:52:00 | globus delete --notify off e7f6aaae-fe52-11e8-9345-0e3d676669f4:/~/tmpfs/in/10gb_1_file --recursive
+2019/04/24 11:52:02 | Waiting for deletion to finish (Task ID: ca68a8ba-6622-11e9-8e58-029d279f7e24)
+2019/04/24 11:52:11 | globus transfer --notify off --no-verify-checksum 3064bb28-e940-11e8-8caa-0a1d4c5c824a:/nesi/nobackup/uoa99999/mfel395/10gb_1_file e7f6aaae-fe52-11e8-9345-0e3d676669f4:/~/tmpfs/in/10gb_1_file --recursive
+2019/04/24 11:52:13 | Waiting for transfer to finish (Task ID: d0b2bb5c-6622-11e9-bf44-0e4a062367b8)
+2019/04/24 11:52:48 | RESULT|d0b2bb5c-6622-11e9-bf44-0e4a062367b8|3064bb28-e940-11e8-8caa-0a1d4c5c824a|/nesi/nobackup/uoa99999/mfel395/10gb_1_file|e7f6aaae-fe52-11e8-9345-0e3d676669f4|/~/tmpfs/in/10gb_1_file|10gb_1_file|10737418240|335450205|--no-verify-checksum|NeSI-2-UoA-tmpfs|SUCCEEDED
+2019/04/24 11:52:53 | globus delete --notify off e7f6aaae-fe52-11e8-9345-0e3d676669f4:/~/tmpfs/in/10gb_1_file --recursive
+2019/04/24 11:52:55 | Waiting for deletion to finish (Task ID: e9c41c1c-6622-11e9-bf44-0e4a062367b8)
+2019/04/24 11:53:03 | globus transfer --notify off --no-verify-checksum 3064bb28-e940-11e8-8caa-0a1d4c5c824a:/nesi/nobackup/uoa99999/mfel395/10gb_1_file e7f6aaae-fe52-11e8-9345-0e3d676669f4:/~/tmpfs/in/10gb_1_file --recursive
+2019/04/24 11:53:06 | Waiting for transfer to finish (Task ID: efe9cba0-6622-11e9-8e58-029d279f7e24)
+2019/04/24 11:53:42 | RESULT|efe9cba0-6622-11e9-8e58-029d279f7e24|3064bb28-e940-11e8-8caa-0a1d4c5c824a|/nesi/nobackup/uoa99999/mfel395/10gb_1_file|e7f6aaae-fe52-11e8-9345-0e3d676669f4|/~/tmpfs/in/10gb_1_file|10gb_1_file|10737418240|314189489|--no-verify-checksum|NeSI-2-UoA-tmpfs|SUCCEEDED
+2019/04/24 11:53:47 | globus delete --notify off e7f6aaae-fe52-11e8-9345-0e3d676669f4:/~/tmpfs/in/10gb_1_file --recursive
+2019/04/24 11:53:49 | Waiting for deletion to finish (Task ID: 0a0e929a-6623-11e9-bf44-0e4a062367b8)
+2019/04/24 11:53:58 | globus transfer --notify off --no-verify-checksum 3064bb28-e940-11e8-8caa-0a1d4c5c824a:/nesi/nobackup/uoa99999/mfel395/10gb_1_file e7f6aaae-fe52-11e8-9345-0e3d676669f4:/~/tmpfs/in/10gb_1_file --recursive
+2019/04/24 11:54:00 | Waiting for transfer to finish (Task ID: 1055602a-6623-11e9-8e58-029d279f7e24)
+2019/04/24 11:54:42 | RESULT|1055602a-6623-11e9-8e58-029d279f7e24|3064bb28-e940-11e8-8caa-0a1d4c5c824a|/nesi/nobackup/uoa99999/mfel395/10gb_1_file|e7f6aaae-fe52-11e8-9345-0e3d676669f4|/~/tmpfs/in/10gb_1_file|10gb_1_file|10737418240|268793253|--no-verify-checksum|NeSI-2-UoA-tmpfs|SUCCEEDED
+2019/04/24 11:54:48 | globus delete --notify off e7f6aaae-fe52-11e8-9345-0e3d676669f4:/~/rescer201900004-data-transfer-tests/in/10gb_1_file --recursive
+2019/04/24 11:54:50 | Waiting for deletion to finish (Task ID: 2e86a3e2-6623-11e9-b7f4-0a37f382de32)
+2019/04/24 11:54:59 | globus transfer --notify off --no-verify-checksum e7f6aaae-fe52-11e8-9345-0e3d676669f4:/~/tmpfs/in/10gb_1_file e7f6aaae-fe52-11e8-9345-0e3d676669f4:/~/rescer201900004-data-transfer-tests/in/10gb_1_file --recursive
+2019/04/24 11:55:01 | Waiting for transfer to finish (Task ID: 34b86d40-6623-11e9-8e58-029d279f7e24)
+2019/04/24 11:55:35 | RESULT|34b86d40-6623-11e9-8e58-029d279f7e24|e7f6aaae-fe52-11e8-9345-0e3d676669f4|/~/tmpfs/in/10gb_1_file|e7f6aaae-fe52-11e8-9345-0e3d676669f4|/~/rescer201900004-data-transfer-tests/in/10gb_1_file|10gb_1_file|10737418240|337614530|--no-verify-checksum|UoA-tmpfs-2-UoA-SpectrumScale|SUCCEEDED
+2019/04/24 11:55:40 | globus delete --notify off e7f6aaae-fe52-11e8-9345-0e3d676669f4:/~/rescer201900004-data-transfer-tests/in/10gb_1_file --recursive
+2019/04/24 11:55:42 | Waiting for deletion to finish (Task ID: 4d8dad44-6623-11e9-8e58-029d279f7e24)
+2019/04/24 11:55:51 | globus transfer --notify off --no-verify-checksum e7f6aaae-fe52-11e8-9345-0e3d676669f4:/~/tmpfs/in/10gb_1_file e7f6aaae-fe52-11e8-9345-0e3d676669f4:/~/rescer201900004-data-transfer-tests/in/10gb_1_file --recursive
+2019/04/24 11:55:54 | Waiting for transfer to finish (Task ID: 54085674-6623-11e9-b7f4-0a37f382de32)
+2019/04/24 11:56:29 | RESULT|54085674-6623-11e9-b7f4-0a37f382de32|e7f6aaae-fe52-11e8-9345-0e3d676669f4|/~/tmpfs/in/10gb_1_file|e7f6aaae-fe52-11e8-9345-0e3d676669f4|/~/rescer201900004-data-transfer-tests/in/10gb_1_file|10gb_1_file|10737418240|333281422|--no-verify-checksum|UoA-tmpfs-2-UoA-SpectrumScale|SUCCEEDED
+2019/04/24 11:56:34 | globus delete --notify off e7f6aaae-fe52-11e8-9345-0e3d676669f4:/~/rescer201900004-data-transfer-tests/in/10gb_1_file --recursive
+2019/04/24 11:56:36 | Waiting for deletion to finish (Task ID: 6d63a114-6623-11e9-bf44-0e4a062367b8)
+2019/04/24 11:56:44 | globus transfer --notify off --no-verify-checksum e7f6aaae-fe52-11e8-9345-0e3d676669f4:/~/tmpfs/in/10gb_1_file e7f6aaae-fe52-11e8-9345-0e3d676669f4:/~/rescer201900004-data-transfer-tests/in/10gb_1_file --recursive
+2019/04/24 11:56:47 | Waiting for transfer to finish (Task ID: 7391e726-6623-11e9-8e58-029d279f7e24)
+2019/04/24 11:57:20 | RESULT|7391e726-6623-11e9-8e58-029d279f7e24|e7f6aaae-fe52-11e8-9345-0e3d676669f4|/~/tmpfs/in/10gb_1_file|e7f6aaae-fe52-11e8-9345-0e3d676669f4|/~/rescer201900004-data-transfer-tests/in/10gb_1_file|10gb_1_file|10737418240|339219905|--no-verify-checksum|UoA-tmpfs-2-UoA-SpectrumScale|SUCCEEDED
+2019/04/24 11:57:26 | globus delete --notify off e7f6aaae-fe52-11e8-9345-0e3d676669f4:/~/rescer201900004-data-transfer-tests/in/10gb_1_file --recursive
+2019/04/24 11:57:28 | Waiting for deletion to finish (Task ID: 8c534caa-6623-11e9-b7f4-0a37f382de32)
+2019/04/24 11:57:36 | globus transfer --notify off --no-verify-checksum e7f6aaae-fe52-11e8-9345-0e3d676669f4:/~/tmpfs/in/10gb_1_file e7f6aaae-fe52-11e8-9345-0e3d676669f4:/~/rescer201900004-data-transfer-tests/in/10gb_1_file --recursive
+2019/04/24 11:57:38 | Waiting for transfer to finish (Task ID: 92770a68-6623-11e9-b7f4-0a37f382de32)
+2019/04/24 11:58:13 | RESULT|92770a68-6623-11e9-b7f4-0a37f382de32|e7f6aaae-fe52-11e8-9345-0e3d676669f4|/~/tmpfs/in/10gb_1_file|e7f6aaae-fe52-11e8-9345-0e3d676669f4|/~/rescer201900004-data-transfer-tests/in/10gb_1_file|10gb_1_file|10737418240|337481867|--no-verify-checksum|UoA-tmpfs-2-UoA-SpectrumScale|SUCCEEDED
+2019/04/24 11:58:18 | globus delete --notify off e7f6aaae-fe52-11e8-9345-0e3d676669f4:/~/tmpfs/out/10gb_1_file --recursive
+2019/04/24 11:58:20 | Waiting for deletion to finish (Task ID: ab8a9eac-6623-11e9-b7f4-0a37f382de32)
+2019/04/24 11:58:29 | globus transfer --notify off --no-verify-checksum e7f6aaae-fe52-11e8-9345-0e3d676669f4:/~/tmpfs/in/10gb_1_file e7f6aaae-fe52-11e8-9345-0e3d676669f4:/~/tmpfs/out/10gb_1_file --recursive
+2019/04/24 11:58:32 | Waiting for transfer to finish (Task ID: b240ce7e-6623-11e9-b7f4-0a37f382de32)
+2019/04/24 11:58:53 | RESULT|b240ce7e-6623-11e9-b7f4-0a37f382de32|e7f6aaae-fe52-11e8-9345-0e3d676669f4|/~/tmpfs/in/10gb_1_file|e7f6aaae-fe52-11e8-9345-0e3d676669f4|/~/tmpfs/out/10gb_1_file|10gb_1_file|10737418240|561334193|--no-verify-checksum|UoA-tmpfs-2-UoA-tmpfs|SUCCEEDED
+2019/04/24 11:58:58 | globus delete --notify off e7f6aaae-fe52-11e8-9345-0e3d676669f4:/~/tmpfs/out/10gb_1_file --recursive
+2019/04/24 11:59:00 | Waiting for deletion to finish (Task ID: c34f9588-6623-11e9-bf44-0e4a062367b8)
+2019/04/24 11:59:09 | globus transfer --notify off --no-verify-checksum e7f6aaae-fe52-11e8-9345-0e3d676669f4:/~/tmpfs/in/10gb_1_file e7f6aaae-fe52-11e8-9345-0e3d676669f4:/~/tmpfs/out/10gb_1_file --recursive
+2019/04/24 11:59:11 | Waiting for transfer to finish (Task ID: c9acc55e-6623-11e9-8e58-029d279f7e24)
+2019/04/24 11:59:32 | RESULT|c9acc55e-6623-11e9-8e58-029d279f7e24|e7f6aaae-fe52-11e8-9345-0e3d676669f4|/~/tmpfs/in/10gb_1_file|e7f6aaae-fe52-11e8-9345-0e3d676669f4|/~/tmpfs/out/10gb_1_file|10gb_1_file|10737418240|561180317|--no-verify-checksum|UoA-tmpfs-2-UoA-tmpfs|SUCCEEDED
+2019/04/24 11:59:38 | globus delete --notify off e7f6aaae-fe52-11e8-9345-0e3d676669f4:/~/tmpfs/out/10gb_1_file --recursive
+2019/04/24 11:59:40 | Waiting for deletion to finish (Task ID: db2e789a-6623-11e9-bf44-0e4a062367b8)
+2019/04/24 11:59:48 | globus transfer --notify off --no-verify-checksum e7f6aaae-fe52-11e8-9345-0e3d676669f4:/~/tmpfs/in/10gb_1_file e7f6aaae-fe52-11e8-9345-0e3d676669f4:/~/tmpfs/out/10gb_1_file --recursive
+2019/04/24 11:59:51 | Waiting for transfer to finish (Task ID: e15b4824-6623-11e9-bf44-0e4a062367b8)
+2019/04/24 12:00:13 | RESULT|e15b4824-6623-11e9-bf44-0e4a062367b8|e7f6aaae-fe52-11e8-9345-0e3d676669f4|/~/tmpfs/in/10gb_1_file|e7f6aaae-fe52-11e8-9345-0e3d676669f4|/~/tmpfs/out/10gb_1_file|10gb_1_file|10737418240|561069708|--no-verify-checksum|UoA-tmpfs-2-UoA-tmpfs|SUCCEEDED
+2019/04/24 12:00:19 | globus delete --notify off e7f6aaae-fe52-11e8-9345-0e3d676669f4:/~/tmpfs/out/10gb_1_file --recursive
+2019/04/24 12:00:21 | Waiting for deletion to finish (Task ID: f3bc32e4-6623-11e9-bf44-0e4a062367b8)
+2019/04/24 12:00:30 | globus transfer --notify off --no-verify-checksum e7f6aaae-fe52-11e8-9345-0e3d676669f4:/~/tmpfs/in/10gb_1_file e7f6aaae-fe52-11e8-9345-0e3d676669f4:/~/tmpfs/out/10gb_1_file --recursive
+2019/04/24 12:00:32 | Waiting for transfer to finish (Task ID: fa0d1686-6623-11e9-b7f4-0a37f382de32)
+2019/04/24 12:00:54 | RESULT|fa0d1686-6623-11e9-b7f4-0a37f382de32|e7f6aaae-fe52-11e8-9345-0e3d676669f4|/~/tmpfs/in/10gb_1_file|e7f6aaae-fe52-11e8-9345-0e3d676669f4|/~/tmpfs/out/10gb_1_file|10gb_1_file|10737418240|540687000|--no-verify-checksum|UoA-tmpfs-2-UoA-tmpfs|SUCCEEDED
