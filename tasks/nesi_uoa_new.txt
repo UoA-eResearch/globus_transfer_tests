@@ -1,8 +1,8 @@
 # src endpoint | src path | dest endpoint | dest path | repeats | transfer options | label
-#e7f6aaae-fe52-11e8-9345-0e3d676669f4|/~/rescer201900004-data-transfer-tests/out/10gb_1_file|3064bb28-e940-11e8-8caa-0a1d4c5c824a|/nesi/nobackup/uoa99999/mfel395/10gb_1_file|4|--no-verify-checksum|UoA-SpectrumScale-2-NeSI
-#3064bb28-e940-11e8-8caa-0a1d4c5c824a|/nesi/nobackup/uoa99999/mfel395/10gb_1_file|e7f6aaae-fe52-11e8-9345-0e3d676669f4|/~/rescer201900004-data-transfer-tests/in/10gb_1_file|4|--no-verify-checksum|NeSI-2-UoA-SpectrumScale
-#3064bb28-e940-11e8-8caa-0a1d4c5c824a|/nesi/nobackup/uoa99999/mfel395/10gb_1_file|e7f6aaae-fe52-11e8-9345-0e3d676669f4|/~/in/10gb_1_file|4|--no-verify-checksum|NeSI-2-UoA-LocalDisk
-#3064bb28-e940-11e8-8caa-0a1d4c5c824a|/nesi/nobackup/uoa99999/mfel395/10gb_1_file|e7f6aaae-fe52-11e8-9345-0e3d676669f4|/~/tmpfs/in/10gb_1_file|4|--no-verify-checksum|NeSI-2-UoA-tmpfs
-e7f6aaae-fe52-11e8-9345-0e3d676669f4|/~/tmpfs/out/10gb_1_file|e7f6aaae-fe52-11e8-9345-0e3d676669f4|/~/rescer201900004-data-transfer-tests/in/10gb_1_file|4|--no-verify-checksum|UoA-tmpfs-2-UoA-SpectrumScale
-e7f6aaae-fe52-11e8-9345-0e3d676669f4|/~/tmpfs/out/10gb_1_file|e7f6aaae-fe52-11e8-9345-0e3d676669f4|/~/tmpfs/in/10gb_1_file|4|--no-verify-checksum|UoA-tmpfs-2-UoA-tmpfs
+#e7f6aaae-fe52-11e8-9345-0e3d676669f4|/~/rescer201900004-data-transfer-tests/out/10gb_1_file|3064bb28-e940-11e8-8caa-0a1d4c5c824a|/nesi/nobackup/uoa99999/mfel395/10gb_1_file|folder|4|--no-verify-checksum|UoA-SpectrumScale-2-NeSI
+#3064bb28-e940-11e8-8caa-0a1d4c5c824a|/nesi/nobackup/uoa99999/mfel395/10gb_1_file|e7f6aaae-fe52-11e8-9345-0e3d676669f4|/~/rescer201900004-data-transfer-tests/in/10gb_1_file|folder|4|--no-verify-checksum|NeSI-2-UoA-SpectrumScale
+#3064bb28-e940-11e8-8caa-0a1d4c5c824a|/nesi/nobackup/uoa99999/mfel395/10gb_1_file|e7f6aaae-fe52-11e8-9345-0e3d676669f4|/~/in/10gb_1_file|folder|4|--no-verify-checksum|NeSI-2-UoA-LocalDisk
+#3064bb28-e940-11e8-8caa-0a1d4c5c824a|/nesi/nobackup/uoa99999/mfel395/10gb_1_file|e7f6aaae-fe52-11e8-9345-0e3d676669f4|/~/tmpfs/in/10gb_1_file|folder|4|--no-verify-checksum|NeSI-2-UoA-tmpfs
+e7f6aaae-fe52-11e8-9345-0e3d676669f4|/~/tmpfs/out/10gb_1_file|e7f6aaae-fe52-11e8-9345-0e3d676669f4|/~/rescer201900004-data-transfer-tests/in/10gb_1_file|folder|4|--no-verify-checksum|UoA-tmpfs-2-UoA-SpectrumScale
+e7f6aaae-fe52-11e8-9345-0e3d676669f4|/~/tmpfs/out/10gb_1_file|e7f6aaae-fe52-11e8-9345-0e3d676669f4|/~/tmpfs/in/10gb_1_file|folder|4|--no-verify-checksum|UoA-tmpfs-2-UoA-tmpfs
 
