@@ -11,7 +11,7 @@
 mylog() {
     message="$1"
     now=$(date +'%Y/%m/%d %H:%M:%S')
-    echo "${now} | ${message}" >> ${log_file}
+    echo "${now} | ${message}" 
 }
 
 # verify an endpoint has been activated
@@ -74,21 +74,25 @@ transfer() {
 
 # verify a task file has been provided on the command-line
 if [ $# != "1" ]; then
+    echo "No task file specified."
     echo "Syntax: $0 <task file>"
-    echo "Task file must have the following syntax:"
-    echo "src_endpoint_id | src_path | dest_endpoint_id | dest_path | repeats | transfer_options | label"
     exit 1
 fi
 
-input_file=$1
+task_file=$1
 
 # verify provided task file is a file and is readable
-if [ ! -f "${input_file}" ] &&  [ ! -r "${input_file}" ]; then
-    echo "Input file '${input_file}' does not exist or cannot be read"
+if [ ! -f "${task_file}" ] &&  [ ! -r "${task_file}" ]; then
+    echo "Input file '${task_file}' does not exist or cannot be read"
     exit 1
 fi
 
-log_file="transfer_$(date +'%Y-%m-%d_%H:%M:%S').log"
+# verify we're authenticated
+globus get-identities 'go@globusid.org' 1> /dev/null 2> /dev/null
+if [ "$?" -gt "0" ]; then
+  echo "You are not logged in to Globus. Please log in first"
+  exit 1  
+fi
 
 # read transfers from file
 while read line; do
@@ -115,6 +119,6 @@ while read line; do
         delete "${dst_ep}" "${dst_path}" "${transfer_type}"
         transfer ${src_ep} ${src_path} ${dst_ep} ${dst_path} "${transfer_options}" "${transfer_type}" "${label}"
     done
-done < ${input_file}
+done < ${task_file}
 
 
