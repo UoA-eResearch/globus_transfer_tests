@@ -5,7 +5,7 @@
 # Output is written to transfer_<current_date_and_time>.log
 # Prerequisites:
 #   * Globus CLI is installed
-#   * Logged in to globus via the CLI
+#   * Logged in to globus via the CLI (globus login)
 #   * Endpoints listed in task file have been activated
 
 mylog() {
