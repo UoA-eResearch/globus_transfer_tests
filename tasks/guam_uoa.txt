@@ -1,0 +1,8 @@
+# src endpoint | src path | dest endpoint | dest path | repeats | transfer options | label
+e7f6aaae-fe52-11e8-9345-0e3d676669f4|/~/rescer201900004-data-transfer-tests/out/10G.dat|6756efae-93a8-11e8-96ac-0a6d4e044368|/~/export/data/auklandtest/in/10G.dat|file|4|--no-verify-checksum|UoA-SpectrumScale-2-Guam
+e7f6aaae-fe52-11e8-9345-0e3d676669f4|/~/tmpfs/out/10G.dat|6756efae-93a8-11e8-96ac-0a6d4e044368|/~/export/data/auklandtest/in/10G.dat|file|4|--no-verify-checksum|UoA-tmpfs-2-Guam
+e7f6aaae-fe52-11e8-9345-0e3d676669f4|/~/out/10G.dat|6756efae-93a8-11e8-96ac-0a6d4e044368|/~/export/data/auklandtest/in/10G.dat|file|4|--no-verify-checksum|UoA-LocalDisk-2-Guam
+6756efae-93a8-11e8-96ac-0a6d4e044368|/~/export/data/auklandtest/out/10G.dat|e7f6aaae-fe52-11e8-9345-0e3d676669f4|/~/rescer201900004-data-transfer-tests/in/10G.dat|file|4|--no-verify-checksum|Guam-2-UoA-SpectrumScale
+6756efae-93a8-11e8-96ac-0a6d4e044368|/~/export/data/auklandtest/out/10G.dat|e7f6aaae-fe52-11e8-9345-0e3d676669f4|/~/tmpfs/in/10G.dat|file|4|--no-verify-checksum|Guam-2-UoA-tmpfs
+6756efae-93a8-11e8-96ac-0a6d4e044368|/~/export/data/auklandtest/out/10G.dat|e7f6aaae-fe52-11e8-9345-0e3d676669f4|/~/in/10G.dat|file|4|--no-verify-checksum|Guam-2-UoA-LocalDisk
+
